@@ -92,7 +92,6 @@ public class Player : MonoBehaviour
     {
         if (playerFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
-            Debug.Log(isGrounded);
             isGrounded = true;
             jumpCount = 1;
         }

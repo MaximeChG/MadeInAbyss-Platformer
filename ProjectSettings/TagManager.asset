@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Ground
   - Player
-  - 
+  - Background
   - 
   - 
   - 
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 1130242111
+    locked: 0
+  - name: Background
+    uniqueID: 871973343
     locked: 0

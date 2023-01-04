@@ -397,6 +397,30 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2625,9 +2649,9 @@ TextureImporter:
       tilesets_101: 7131858074544742814
       tilesets_49: -9056843633165961928
       tilesets_84: 769348150549829954
-      tilesets_14: 207799629167017651
       tilesets_81: 8226575204073823499
       tilesets_85: 5347440600994613745
+      tilesets_14: 207799629167017651
       tilesets_31: -883645546373660570
       tilesets_88: -984251121906125822
       tilesets_37: -3386811328247379480
