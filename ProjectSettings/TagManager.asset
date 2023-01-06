@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - PauseMenu
+  - Boss
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - Ground
   - Player
   - Background
-  - 
+  - Boss
   - 
   - 
   - 
@@ -47,6 +49,9 @@ TagManager:
     locked: 0
   - name: Terrain
     uniqueID: 1130242111
+    locked: 0
+  - name: Boss
+    uniqueID: 3907893715
     locked: 0
   - name: Background
     uniqueID: 871973343

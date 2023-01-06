@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Coin : LevelManager
 {
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Coin Collected");
-        Destroy(this.gameObject);
+        if (collision != null && collision.gameObject.tag == "Player")
+        {
+            Destroy(this.gameObject);
+            CoinPickedUp();
+        }        
     }
-
 }
